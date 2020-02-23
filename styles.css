@@ -291,6 +291,8 @@ body {
 }
 
 .services__item__text {
+    height: 66px;
+    overflow: hidden;
     font-size: 12px;
     line-height: 22px;
     font-weight: 400;
