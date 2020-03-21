@@ -49,3 +49,16 @@ function changeActiveClass(item) {
   const navigationItems = NAVIGATION.querySelectorAll(".nav__link");
   navigationItems[item].classList.add("active");
 }
+
+// show/hide background
+const phones = document.querySelectorAll(".phone");
+for (let phone of phones) phone.addEventListener("click", togglePhoneDisplay);
+
+function togglePhoneDisplay(event) {
+  const phone = event.target;
+  console.log(phone.classList);
+  if (phone.classList.contains("phone")) {
+    phone.classList.toggle("hide");
+  } else if (phone.parentElement.classList.contains("phone"))
+    phone.parentElement.classList.toggle("hide")
+}

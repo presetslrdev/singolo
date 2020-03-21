@@ -217,6 +217,18 @@ body {
     z-index: 2;
 }
 
+.phone {
+    cursor: pointer;
+}
+
+.phone .phone-bg {
+    transition: opacity 0.2s cubic-bezier(.17, .67, .83, .67);
+}
+
+.phone.hide .phone-bg {
+    opacity: 0;
+}
+
 .slider__prev {
     position: absolute;
     display: flex;
