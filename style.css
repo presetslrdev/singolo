@@ -69,7 +69,8 @@ body {
     box-sizing: border-box;
     border-bottom: 6px solid #323746;
     background: #2d303a;
-    position: sticky;
+    position: fixed;
+    width: 100%;
     top: 0px;
     transition: height 0.2s cubic-bezier(.17, .67, .83, .67);
     z-index: 99;
@@ -154,7 +155,8 @@ body {
 
 
 .slider {
-    height: 600px;
+    padding-top: 95px;
+    height: 695px;
     background: #f06c64;
     border-bottom: 6px solid #ea676b;
 }
