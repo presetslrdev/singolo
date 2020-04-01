@@ -662,11 +662,40 @@ input.button {
         width: 767px;
     }
 
+    .slider__wrapper {
+        zoom: 0.74;
+    }
+
+    .slider {
+        height: 525px;
+    }
+
+    .services {
+        padding: 40px 0 64px;
+    }
+
+    .about__card {
+        max-width: 220px;
+    }
+
+    .card__image img {
+        max-width: 100%;
+        height: auto;
+    }
+
+    .card__social {
+        padding-top: 16px;
+    }
+
+    .contact__form {
+        max-width: 60%;
+    }
+
 }
 
 @media (max-width: 767px) {
 
-    .header__nav{
+    .header__nav {
         display: none;
     }
 
