@@ -656,7 +656,7 @@ input.button {
 }
 
 
-@media (max-width: 1019px) {
+@media (max-width: 1019px) and (min-width: 768px) {
 
     .container {
         width: 767px;
